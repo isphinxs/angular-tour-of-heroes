@@ -13,10 +13,9 @@ export class HeroesComponent implements OnInit {
   //   name: 'Windstorm'
   // }
 
-  selectedHero?: Hero;
-
   heroes = HEROES; 
-
+  selectedHero?: Hero;
+  
   constructor() { }
 
   ngOnInit(): void {
